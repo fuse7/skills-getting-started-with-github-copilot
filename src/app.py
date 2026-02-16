@@ -30,30 +30,64 @@ activities = {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 12,
-        "participants": [
-            "michael@mergington.edu",
-            "daniel@mergington.edu"
-        ]
+        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
     },
     "Programming Class": {
         "description": "Learn programming fundamentals and build software projects",
         "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
         "max_participants": 20,
-        "participants": [
-            "emma@mergington.edu",
-            "sophia@mergington.edu"
-        ]
+        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
     },
     "Gym Class": {
         "description": "Physical education and sports activities",
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
-        "participants": [
-            "john@mergington.edu",
-            "olivia@mergington.edu"
-        ]
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+
+    # ✅ Sports
+    "Soccer Team": {
+        "description": "Practice soccer skills and compete with other schools",
+        "schedule": "Tuesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 18,
+        "participants": []
+    },
+    "Basketball Team": {
+        "description": "Train and play competitive basketball games",
+        "schedule": "Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": []
+    },
+
+    # ✅ Artistic
+    "Art Club": {
+        "description": "Create paintings, drawings, and digital art",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": []
+    },
+    "Drama Club": {
+        "description": "Acting, improvisation, and stage performances",
+        "schedule": "Mondays, 4:00 PM - 5:30 PM",
+        "max_participants": 14,
+        "participants": []
+    },
+
+    # ✅ Intellectual
+    "Math Club": {
+        "description": "Solve challenging math problems and puzzles",
+        "schedule": "Fridays, 2:30 PM - 3:30 PM",
+        "max_participants": 12,
+        "participants": []
+    },
+    "Robotics Club": {
+        "description": "Build and program robots",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": []
     }
 }
+
 
 
 @app.get("/")
